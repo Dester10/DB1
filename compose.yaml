@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: postgres:14.0
+    environment:
+      POSTGRES_DB: 'postgres'
+      POSTGRES_USER: 'Maxim'
+      POSTGRES_PASSWORD: 'root'
+    ports:
+      - '127.0.0.1:5588:5432'
